@@ -8,15 +8,25 @@ function Arweave() {
                     <h1
                         class="mx-5 text-black bg-clip-text font-extrabold text-transparent mb-5 md:mb-0"
                     >
-                        Build on Arweave
+                        Build on Arweave 🏗️
                     </h1>
                 </div>
                 <div>
                     <div className="grid pl-5 flex items-center grid-cols-1 md:grid-cols-3">
-                        <div className='md:col-span-2 px-6 text-lg'>
+                        <div className='md:col-span-2 px-6 mb-8 text-lg'>
                             Get started with an Arweave-based tech stack that provides everything you need to build permanent, decentralized applications.
-                            <p>&nbsp;</p><p>Learn to write and deploy a smart contract backend, ensure speedy data availability, and host your dApp's UI on the blockweave where it'll be available forever.</p>
+                            <p>&nbsp;</p>
+                            <p>Learn to write and deploy a smart contract backend, ensure speedy data availability, and host your dApp's UI on the blockweave where it'll be available forever.</p>
+                            <div className="mt-8">
+                                <a
+                                    className="rounded bg-[#FF630B] px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                                    href="/get-started"
+                                >
+                                    Register
+                                </a>
+                            </div>
                         </div>
+
                         <div className='hidden md:flex md:items-center md:justify-end'>
                             <div className='w-1/2 overflow-hidden'>
                                 <img
@@ -31,7 +41,7 @@ function Arweave() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
