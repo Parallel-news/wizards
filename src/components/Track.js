@@ -11,7 +11,11 @@ function Track(props) {
             </h5>
           </div>
           <div className="mb-4 mt-2 text-2xl font-bold tracking-tight text-gray-900">
-            {props.content.icon}
+          <img
+                                    width={24}
+                                    height={24}
+                                    src={props.content.icon}
+                                />
           </div>
         </div>
       </a>
@@ -21,13 +25,7 @@ function Track(props) {
 
       <div className="grid grid-cols-2 gap-x-10 mb-5">
         <div className="mb-3 font-normal">
-          First prize
-        </div>
-        <div>
-          $3,000
-        </div>
-        <div className="mb-3 font-normal">
-          Runners-up
+          Prize
         </div>
         <div>
           $1,000

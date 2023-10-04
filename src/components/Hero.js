@@ -10,34 +10,45 @@ function Hero({ tracksRef }) {
             <div
                 class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
             >
-                <div class="mx-auto max-w-3xl text-center">
-                    <h1
-                        class="bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
-                    >
-                        <img src={Permahacks} />
+                <div class="mx-auto max-w-3xl text-center flex flex-col justify-between h-full">
+                    {/* Space filler */}
+                    <div class="flex-grow"></div>
 
-                        <span class="sm:block">  </span>
-                    </h1>
+                    {/* New row of text */}
+             
 
-                    <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-                        a 2-week online event for Arweave builders
-                    </p>
-
-                    <div class="mt-8 flex flex-wrap justify-center gap-4">
-                        <a
-                            class="block w-full rounded bg-[#FF630B] px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-                            href="/get-started"
+                    <div>
+                        <h1
+                            class="bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
                         >
-                            Register
-                        </a>
+                            <img src={Permahacks} />
+                            <span class="sm:block">  </span>
+                        </h1>
 
-                        <button
-                            class="block w-full rounded border border-[#FF630B] px-12 py-3 text-md font-medium text-[#FF630B] focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-                            onClick={scrollToTracks}
-                        >
-                            See Tracks
-                        </button>
+                        <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
+                            Hack on Arweave: Oct 30 - Nov 10
+                        </p>
+
+                        <div class="mt-8 flex flex-wrap justify-center gap-4">
+                            <button
+                                class="block w-full hover:cursor-not-allowed rounded bg-[#FF630B] px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                                href="#"
+                                disabled
+                            >
+                                {`Signup (coming soon)`}
+                            </button>
+
+                            <button
+                                class="block w-full rounded border border-[#FF630B] px-12 py-3 text-md font-medium text-[#FF630B] focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+                                onClick={scrollToTracks}
+                            >
+                                See Tracks
+                            </button>
+                        </div>
                     </div>
+
+                    {/* Space filler */}
+                    <div class="flex-grow"></div>
                 </div>
             </div>
         </section>
