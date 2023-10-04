@@ -42,7 +42,7 @@ function Hero({ tracksRef }) {
                                 class="block w-full rounded border border-[#FF630B] px-12 py-3 text-md font-medium text-[#FF630B] focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
                                 onClick={scrollToTracks}
                             >
-                                See Tracks
+                                See Bounties
                             </button>
                         </div>
                     </div>
