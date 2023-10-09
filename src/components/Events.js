@@ -22,14 +22,14 @@ function Events() {
                   className="rounded bg-[#FF630B] hover:cursor-not-allowed px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
                   href="https://community.g8way.io/"
                 >
-                  {`View event calendar`}
+                  {`View events (coming soon)`}
                 </button>
                 <button
                   class="block w-full rounded border border-[#FF630B] px-12 py-3 text-md font-medium text-[#FF630B] focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
                   href="https://cookbook.arweave.dev"
                   
                 >
-                  {`Read the docs`}
+                  {`Read Arweave docs`}
                 </button>
               </div>
             </div>

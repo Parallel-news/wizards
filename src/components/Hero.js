@@ -30,13 +30,13 @@ function Hero({ tracksRef }) {
                         </p>
 
                         <div class="mt-8 flex flex-wrap justify-center gap-4">
-                            <button
-                                class="block w-full hover:cursor-not-allowed rounded bg-[#FF630B] px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-                                href="#"
-                                disabled
+                            <a
+                                class="block w-full rounded bg-[#FF630B] px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                                href="https://y2kodq8uua3.typeform.com/permahacks"
+                                
                             >
-                                {`Signup (coming soon)`}
-                            </button>
+                                {`Sign up`}
+                            </a>
 
                             <button
                                 class="block w-full rounded border border-[#FF630B] px-12 py-3 text-md font-medium text-[#FF630B] focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"

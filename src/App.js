@@ -13,11 +13,13 @@ const tracks = {
   devtooling: {
     title: 'Best use of Arseeding or EverID',
     icon: Ever,
+    iconlink: "https://ever.vision",
     desc: 'Use the everVision data availability and identity services in your submission to qualify'
   },
   web3dapps: {
     title: 'Best use of MEM',
     icon: Mem,
+    iconlink: "https://mem.tech",
     desc: 'Use the Molecular Execution Machine (MEM) as your dApp\'s backend to qualify',
   },
   crosschain: {
@@ -28,6 +30,7 @@ const tracks = {
   education: {
     title: 'Educational video content',
     icon: PermawebNews,
+    iconlink: "https://permaweb.news",
     desc: 'Create a technology-focused video series for Arweave developers or end users.',
   }
 }
@@ -51,7 +54,7 @@ function App() {
         <Track content={tracks.devtooling} />
         <Track content={tracks.web3dapps} />
         <Track content={tracks.education} />
-        <Track content={tracks.crosschain} />
+        {/*<Track content={tracks.crosschain} />*/}
       </div>
       <Events />
     </div>

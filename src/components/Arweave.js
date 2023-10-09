@@ -20,13 +20,12 @@ function Arweave() {
                             <p>&nbsp;</p>
                             <p><span className="font-bold">3-5 winners will be chosen from the total pool of submissions</span>, with extra prizes going to those who fill the bounties below.</p>
                             <div className="mt-8">
-                                <button
-                                    className="rounded bg-[#FF630B] hover:cursor-not-allowed px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-                                    href="#"
-                                    disabled
+                                <a
+                                    className="rounded bg-[#FF630B] px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                                    href="https://y2kodq8uua3.typeform.com/permahacks"
                                 >
-                                    {`Signup (coming soon)`}
-                                </button>
+                                    {`Sign up`}
+                                </a>
                             </div>
                         </div>
 

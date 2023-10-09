@@ -3,7 +3,7 @@ import React from 'react';
 function Track(props) {
   return (
     <div className="p-5 max-w-xl m-auto p-6 bg-white border border-gray-200 rounded-lg shadow">
-      <a href="#">
+      <a href={props.content.iconlink} target="_blank" rel="noopener noreferrer">
         <div className="flex justify-between">
           <div>
             <h5 className="mb-4 mt-2 text-2xl font-bold tracking-tight text-gray-900">
@@ -11,11 +11,12 @@ function Track(props) {
             </h5>
           </div>
           <div className="mb-4 mt-2 text-2xl font-bold tracking-tight text-gray-900">
-          <img
-                                    width={24}
-                                    height={24}
-                                    src={props.content.icon}
-                                />
+            <img
+              width={24}
+              height={24}
+              src={props.content.icon}
+              alt={`${props.content.title} icon`}
+            />
           </div>
         </div>
       </a>

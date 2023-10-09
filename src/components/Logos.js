@@ -23,40 +23,50 @@ function Logos() {
             <div>
                 <div className="mx-auto max-w-7xl py-16 px-6 sm:py-4 lg:px-6 justify-center">
                     <div className="flex justify-center">
-                    <div className="mt-8 gap-10 flex flex-wrap justify-center">
+                        <div className="mt-8 gap-10 flex flex-wrap justify-center">
                             <div className="col-span-1 flex flex-col items-center justify-center md:col-span-2 lg:col-span-1">
-                                <img
-                                    width={48}
-                                    height={48}
-                                    src={EverFinance}
-                                    alt="everfinance logo"
-                                />
-                                <div className="text-sm mt-3 mb-5 text-gray-500">everFinance</div>
+                                <a href="https://ever.vision" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        width={48}
+                                        height={48}
+                                        src={EverFinance}
+                                        alt="everfinance logo"
+                                    />
+                                </a>
+                                <div className="text-sm mt-3 mb-5 text-gray-500">everVision</div>
                             </div>
                             <div className="col-span-1 flex flex-col items-center justify-center md:col-span-2 lg:col-span-1">
-                                <img width={48} height={48} src={DecentLand} alt="decent.land logo" />
+                                <a href="https://decent.land" target="_blank" rel="noopener noreferrer">
+                                    <img width={48} height={48} src={DecentLand} alt="decent.land logo" />
+                                </a>
                                 <div className="text-sm mt-3 mb-5 text-gray-500">decent.land</div>
                             </div>
                             <div className="col-span-1 flex flex-col items-center justify-center md:col-span-2 lg:col-span-1">
-                                <img width={48} height={48} src={CL} alt="Community Labs logo" />
+                                <a href="https://www.communitylabs.com/" target="_blank" rel="noopener noreferrer">
+                                    <img width={48} height={48} src={CL} alt="Community Labs logo" />
+                                </a>
                                 <div className="text-sm mt-3 mb-5 text-gray-500">Community Labs</div>
                             </div>
                             <div className="col-span-1 flex flex-col items-center justify-center md:col-span-2 lg:col-span-1">
-                                <img
-                                    width={48}
-                                    height={48}
-                                    src={Forward}
-                                    alt="Forward Research Logo"
-                                />
+                                <a href="https://forward.arweave.dev/" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        width={48}
+                                        height={48}
+                                        src={Forward}
+                                        alt="Forward Research Logo"
+                                    />
+                                </a>
                                 <div className="text-sm mt-3 mb-5 text-gray-500">Forward Research</div>
                             </div>
                             <div className="col-span-1 flex flex-col items-center justify-center md:col-span-2 lg:col-span-1">
-                                <img
-                                    width={48}
-                                    height={48}
-                                    src={PermawebNews}
-                                    alt="permaweb.news logo"
-                                />
+                                <a href="https://permaweb.news" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        width={48}
+                                        height={48}
+                                        src={PermawebNews}
+                                        alt="permaweb.news logo"
+                                    />
+                                </a>
                                 <div className="text-sm mt-3 mb-5 text-gray-500">permaweb.news</div>
                             </div>
                         </div>
