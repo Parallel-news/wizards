@@ -32,7 +32,7 @@ function Hero({ tracksRef }) {
                         <div class="mt-8 flex flex-wrap justify-center gap-4">
                             <a
                                 class="block w-full rounded bg-[#FF630B] px-12 py-3 text-md font-medium text-gray-900 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-                                href="https://y2kodq8uua3.typeform.com/permahacks"
+                                href="https://y2kodq8uua3.typeform.com/PH-Application"
                                 
                             >
                                 {`Sign up`}
