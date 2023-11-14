@@ -8,6 +8,9 @@ import Ever from "./images/everfinance.png"
 import Mem from "./images/mem-logo.svg"
 import Forward from "./images/forward.jpg"
 import PermawebNews from "./images/permawebnews.png"
+import Arconnect from "./images/arconnect.png"
+import ArweaveKit from "./images/arweavekit.png"
+import Navbar from './components/Navbar';
 
 const tracks = {
 
@@ -51,6 +54,30 @@ const tracks = {
     prize: "$3,500",
     moreinfo: 'https://docs.google.com/document/d/1lbPc_hr_2wLjp3CoM-aZApBgCOVKVcoaZxC-5CbcOGQ/edit?usp=sharing'
   },
+  arweaveKitIntegration: {
+    title: 'ArweaveKit Integration',
+    icon: ArweaveKit,
+    iconlink: 'https://www.arweavekit.com/',
+    prize: '$1,000',
+    desc: 'Must use ArweaveKit as the primary tool in developing your application on Arweave. Use the kit as much as you can and showcase how you’ve used it. Those that create functional apps which fully integrate ArweaveKit will be considered for the bounty. Code must be hosted on protocol.land.',
+    moreinfo: 'https://docs.arweavekit.com/arweavekit/introduction'
+  },
+  bestPluginSubmission: {
+    title: 'Best plugin submission to ArweaveKit',
+    icon: ArweaveKit,
+    iconlink: 'https://www.arweavekit.com/',
+    prize: '$1,000',
+    desc: 'The plugin system streamlines the coding process by allowing developers the ability to leverage external packages from a variety of Arweave projects without needing direct integrations. All it takes is less than 5 lines of code to import a supported external package. This bounty will be awarded to the best plugin submission to ArweaveKit. Looking for plugins with the most utility, creativity, and impact. Code must be hosted on protocol.land.',
+    moreinfo: 'https://docs.arweavekit.com/arweavekit/introduction'
+  },
+  arConnectIntegration: {
+    title: 'ArConnect Integration',
+    icon: Arconnect,
+    iconlink: 'https://arconnect.io',
+    prize: '$1,000',
+    desc: 'Best project using ArConnect. Must directly use ArConnect to be considered for this bounty. Fully functional integration of Arconnect tied to an app that works. We’ll be looking for creative implementations that make the wallet experience better overall. Code must be hosted on protocol.land.',
+    moreinfo: 'https://docs.arconnect.io/'
+  }
 }
 
 function App() {
@@ -58,6 +85,7 @@ function App() {
 
   return (
     <div className="bg-gray-900">
+      <Navbar/>
       <Hero tracksRef={tracksRef} />
       <Arweave />
       <Logos />
@@ -73,6 +101,9 @@ function App() {
         <Track content={tracks.mem} />
         <Track content={tracks.fwdvideo} />
         <Track content={tracks.fwdsearch} />
+        <Track content={tracks.arweaveKitIntegration} />
+        <Track content={tracks.bestPluginSubmission} />
+        <Track content={tracks.arConnectIntegration} />
         <Track content={tracks.pwn} />
       </div>
       <Events />
